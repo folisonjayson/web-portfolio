@@ -1,11 +1,13 @@
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 h1{
     font-size: 50px;
 }
 .name-highlight{
-    color: orange;
+    color: rgb(6, 33, 186);
 }
 .half-width{
     width: 40%;
@@ -15,4 +17,32 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+#top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.hire-me-button{
+    text-decoration: none;
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    border-radius: 6px;
+    top: 10px;
+    left: 10px;
+}
+.hire-me-button:hover{
+    color: black;
+    background-color: green;
+}
+#dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
